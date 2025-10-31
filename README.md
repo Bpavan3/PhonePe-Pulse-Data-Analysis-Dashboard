@@ -1,23 +1,6 @@
 # PhonePe Pulse Data Analysis Dashboard
 
-An end-to-end analytics project using the PhonePe Pulse dataset — ETL to MySQL + interactive Streamlit dashboard.
-
-## Features
-- ETL: JSON → Pandas → **MySQL**
-- Analytical SQL (state/district/type/brands)
-- Streamlit pages: **Overview**, **Top Insights**, **Users & Brands**, **Map View (bubble, offline)**
-
-## Tech
-Python • Pandas • SQLAlchemy • MySQL • Streamlit • Plotly
-
-## Run locally
-```bash
-git clone https://github.com/Bpavan3/PhonePe-Pulse-Data-Analysis-Dashboard.git
-cd PhonePe-Pulse-Data-Analysis-Dashboard
-pip install -r requirements.txt
-streamlit run Home.py
-
-##  Background & Business Context
+## Background & Business Context
 
 The digital payments landscape in India is undergoing a rapid transformation. As per the joint report by Boston Consulting Group (BCG) and PhonePe, India’s digital payments market is expected to grow from approximately **US $3 trillion** today to as much as **US $10 trillion** by 2026, making up about 65 % of all payments by value. :contentReference[oaicite:2]{index=2}
 
@@ -36,6 +19,23 @@ This project uses the Pulse dataset to build a full-stack analytics solution:
 - Extracting and storing large-scale payments data  
 - Building relational models for state, district and brand analysis  
 - Visualizing key trends through interactive dashboards (Overview, Top Insights, Users & Brands, Map View)  
-- Making insights accessible for business strategy, operations and growth planning  
+- Making insights accessible for business strategy, operations and growth planning
+An end-to-end analytics project using the PhonePe Pulse dataset — ETL to MySQL + interactive Streamlit dashboard.
+
+## Features
+- ETL: JSON → Pandas → **MySQL**
+- Analytical SQL (state/district/type/brands)
+- Streamlit pages: **Overview**, **Top Insights**, **Users & Brands**, **Map View (bubble, offline)**
+
+## Tech
+Python • Pandas • SQLAlchemy • MySQL • Streamlit • Plotly
+
+## Run locally
+```bash
+git clone https://github.com/Bpavan3/PhonePe-Pulse-Data-Analysis-Dashboard.git
+cd PhonePe-Pulse-Data-Analysis-Dashboard
+pip install -r requirements.txt
+streamlit run Home.py
+  
 
 
